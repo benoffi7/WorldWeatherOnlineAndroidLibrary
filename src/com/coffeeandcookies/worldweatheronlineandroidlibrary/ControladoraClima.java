@@ -216,9 +216,9 @@ public class ControladoraClima extends AsyncTask<Void, Void, Bitmap>
 			}
 		}
 		
-		temperaturaActual.setText("Actual: "+temperaturaActualT+" °C");
-		temperaturaMaxima.setText("Maxima: "+temperaturaMaximaT+" °C");
-		temperaturaMinima.setText("Minima: "+temperaturaMinimaT+" °C");
+		temperaturaActual.setText(context.getResources().getString(R.string.text_actual)+" "+temperaturaActualT+" °C");
+		temperaturaMaxima.setText(context.getResources().getString(R.string.text_maxima)+" "+temperaturaMaximaT+" °C");
+		temperaturaMinima.setText(context.getResources().getString(R.string.text_minima)+" "+temperaturaMinimaT+" °C");
 		super.onPostExecute(result);
 	}
 	

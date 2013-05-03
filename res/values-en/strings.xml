@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">World Weather OnlineAndroidLibrary</string>
+	 <string name="text_actual">Current:</string>
+    <string name="text_minima">Minimum	:</string>
+    <string name="text_maxima">Maximum:</string>
+</resources>
