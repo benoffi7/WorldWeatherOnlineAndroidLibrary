@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 /**
  * 
  * @author Gonzalo Benoffi
@@ -14,7 +13,7 @@ import android.widget.Toast;
  * >>> LEER la WIKI para su correcta instalacion y uso <<<
  * 
  * >>> Coffee And Cookies - Desarrollo de Aplicaciones Android <<<
- * >>> 2013, Mar del Plata, Argentina
+ * >>> 2013, Mar del Plata, Argentina <<<
  */
 public class WigetClima extends LinearLayout
 {

@@ -5,7 +5,6 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -75,7 +74,6 @@ public class ControladoraClima extends AsyncTask<Void, Void, Bitmap>
 		pd = new ProgressDialog(context);
 		pd.setMessage("Bucando clima");
 		pd.show();
-
 		super.onPreExecute();
 	}
 	
@@ -319,7 +317,7 @@ public class ControladoraClima extends AsyncTask<Void, Void, Bitmap>
 		catch (Exception e) 
 		{
 			e.printStackTrace();
-			Log.e(Config.TAG, "Imagen NO descargada OK");
+			Log.e(Config.TAG, "Imagen NO descargada");
 		}
 		return bm;
 	}
@@ -336,6 +334,4 @@ public class ControladoraClima extends AsyncTask<Void, Void, Bitmap>
 		DAO_clima dao = new DAO_clima(context);
 		return dao.existeCodigo(code, URL);
 	}	
-	
-	
 }
