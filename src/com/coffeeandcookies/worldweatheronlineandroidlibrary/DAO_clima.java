@@ -4,7 +4,15 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-
+/**
+ * 
+ * @author Gonzalo Benoffi
+ * gitHub URL >> https://github.com/benoffi7/WorldWeatherOnlineAndroidLibrary
+ * >>> LEER la WIKI para su correcta instalacion y uso <<<
+ * 
+ * >>> Coffee And Cookies - Desarrollo de Aplicaciones Android <<<
+ * >>> 2013, Mar del Plata, Argentina
+ */
 public class DAO_clima extends SQLiteOpenHelper
 {
 	Context contexto;

@@ -14,11 +14,11 @@ public final class R {
         public static int icono_clima=0x7f020000;
     }
     public static final class id {
-        public static int imageView1=0x7f050004;
-        public static int l_test=0x7f050000;
-        public static int textView1=0x7f050003;
-        public static int textView2=0x7f050002;
-        public static int textView3=0x7f050001;
+        public static int imageView1=0x7f050001;
+        public static int ll_widget=0x7f050000;
+        public static int textView1=0x7f050004;
+        public static int textView2=0x7f050003;
+        public static int textView3=0x7f050002;
     }
     public static final class layout {
         public static int control_clima=0x7f030000;

@@ -6,19 +6,34 @@ import android.view.LayoutInflater;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
+import android.widget.Toast;
+/**
+ * 
+ * @author Gonzalo Benoffi
+ * gitHub URL >> https://github.com/benoffi7/WorldWeatherOnlineAndroidLibrary
+ * >>> LEER la WIKI para su correcta instalacion y uso <<<
+ * 
+ * >>> Coffee And Cookies - Desarrollo de Aplicaciones Android <<<
+ * >>> 2013, Mar del Plata, Argentina
+ */
 public class WigetClima extends LinearLayout
 {
 	public WigetClima(Context context, AttributeSet attrs)
 	{
 		super(context, attrs);
-		inicializar();
+		 if(!isInEditMode())
+		 {
+			 inicializar();
+		 }			 
 	}
 
 	public WigetClima(Context context)
 	{
 		super(context);
-		inicializar();
+		if(!isInEditMode())
+		{
+			 inicializar();
+		}
 	}
 	
 	private void inicializar()
@@ -31,8 +46,7 @@ public class WigetClima extends LinearLayout
 		TextView temperaturaActual = (TextView)findViewById(R.id.textView3);
 		TextView temperaturaMinima = (TextView)findViewById(R.id.textView2);
 		TextView temperaturaMaxima = (TextView)findViewById(R.id.textView1);
-		 
+			 
 	    new ControladoraClima(getContext(), imageView, temperaturaActual, temperaturaMinima, temperaturaMaxima).execute();
 	}
-
 }
