@@ -23,7 +23,7 @@ public class Config
 	/**
 	 * Nuestra API KEY de WorldWeatherOnlineAndroid
 	 */
-	private static final String API = "zrtvh3vmjywa3uzkqej5ahdm";	
+	private static final String API = "TU API KEY";	
 	/**
 	 * La URL del servicio para obtener los datos del clima
 	 */
