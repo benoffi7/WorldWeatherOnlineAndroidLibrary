@@ -49,11 +49,11 @@ Modalidades de uso
 
 a) Como widget en nuestro layout: solo basta agregar los permisos correspondientes e insertar el wiget en nuestro layout
 
-<com.coffeeandcookies.worldweatheronlineandroidlibrary.WigetClima 
-		android:id="@+id/wigetClima1" 
-		android:layout_width="wrap_content" 
-		android:layout_height="wrap_content">
-</com.coffeeandcookies.worldweatheronlineandroidlibrary.WigetClima>
+* <com.coffeeandcookies.worldweatheronlineandroidlibrary.WigetClima 
+*		android:id="@+id/wigetClima1" 
+*		android:layout_width="wrap_content" 
+*		android:layout_height="wrap_content">
+* </com.coffeeandcookies.worldweatheronlineandroidlibrary.WigetClima>
 
 b) Como una llamada asincrona: debemos indicar los textView y el imageView donde se mostraran los datos
 
@@ -63,3 +63,9 @@ b) Como una llamada asincrona: debemos indicar los textView y el imageView donde
 	                          text_temperaturaMinima, 
 	                          text_temperaturaMaxima)
 	                          .execute();
+	                          
+IMPORTANTE
+================================
+
+Consultar https://github.com/benoffi7/WorldWeatherOnlineAndroidLibrary/wiki/Instalaci%C3%B3n para instalar y configurar la libreria
+	                          
