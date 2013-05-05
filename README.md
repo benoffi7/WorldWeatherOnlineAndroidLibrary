@@ -68,4 +68,15 @@ IMPORTANTE
 ================================
 
 Consultar https://github.com/benoffi7/WorldWeatherOnlineAndroidLibrary/wiki/Instalaci%C3%B3n para instalar y configurar la libreria
+
+VERSION FINAL
+================================
+
+http://d3j5vwomefv46c.cloudfront.net/photos/large/766319684.png?1367712463
+
+COMENTARIOS
+================================
+
+Cualquier bug que apareza en la libreria, duda sobre su instalación o funcionamiento o sugerenia o idea para agregar no duden
+en enviarmela que gustoso estare de responder sus inquietudes.
 	                          
