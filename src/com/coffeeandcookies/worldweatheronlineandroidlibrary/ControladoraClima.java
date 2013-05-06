@@ -227,7 +227,7 @@ public class ControladoraClima extends AsyncTask<Void, Void, Bitmap>
 	 */
 	private Bitmap asignarImagen(String codigo)
 	{
-		File directory = new File(Environment.getExternalStorageDirectory()+File.separator+"clima-images");
+		File directory = new File(Environment.getExternalStorageDirectory()+File.separator+Config.DIR);
 		File imagen=new File(directory,"clima_"+codigo+".png");
 		if (imagen.exists())
 		{
